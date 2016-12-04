@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+build/
+src/**/*.js
+src/**/*.js.map
+example/src/**/*.js
+example/src/**/*.js.map

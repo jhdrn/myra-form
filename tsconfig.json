@@ -1,0 +1,34 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "sourceMap": true,
+        "declaration": true,
+        "target": "es5",
+        "module": "umd",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "pretty": true,
+        "outDir": "./build",
+        "baseUrl": "./",
+        "reactNamespace": "jsxFactory",
+        "jsx": "react",
+        "paths": {
+            "form": [
+                "src/index"
+            ]
+        },
+        "listEmittedFiles": true
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./test/unit/*.ts",
+        "./test/unit/*.tsx",
+        "./node_modules/@types/jasmine/index.d.ts"
+    ]
+}

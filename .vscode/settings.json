@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "examples/**/src/*.js.map": true,
+        "examples/**/src/*.js": true
+    },
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 4
+}
